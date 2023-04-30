@@ -1,4 +1,4 @@
-# Optimized Threadpool for ML Image Processing (One Core per Thread)
+# Optimized Threadpool for ML Image Processing (One Processor per Thread)
 
 This personal project presents an optimized ThreadPool implementation for image processing as a pre-processing step in machine learning applications. The ThreadPool-related functions have been developed using Pthread condition variables, ensuring efficient image processing with one processor per thread.
 
@@ -24,7 +24,7 @@ Ubuntu:
   apt-get install build-essential cmake libpng-dev
 ```
 
-Manual compilation:
+# Manual Compilation:
 
 ```
 cmake -S . -B build
