@@ -18,8 +18,6 @@ ThreadPool functions include:
 
 # Dependencies
 
-Ubuntu:
-
 ```
   apt-get install build-essential cmake libpng-dev
 ```
