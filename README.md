@@ -16,6 +16,22 @@ ThreadPool functions include:
 3. `threadpool_join()`
 4. `process_multithread()`
 
+# Dependencies
+
+Ubuntu:
+
+```
+  apt-get install build-essential cmake libpng-dev
+```
+
+Manual compilation:
+
+```
+cmake -S . -B build
+cd build
+make 
+make test
+```
 # Usage
 
 1. Download test images: `./data/fetch.sh`
